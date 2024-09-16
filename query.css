@@ -1,0 +1,165 @@
+@media (max-width: 23em) {
+  /****************************/
+  /* GENERAL SECTION */
+  /****************************/
+
+  html {
+    /* font-size: 10px; */
+    font-size: 62.5%;
+  }
+
+  .container {
+    max-width: 100%;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .step-container {
+    width: 37.5rem;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .hero-container {
+    justify-content: center;
+    padding: 0 2rem;
+  }
+
+  /****************************/
+  /* OMELETTE SECTION */
+  /****************************/
+
+  .omelette-heading,
+  .omelette-description,
+  .omelette-img {
+    margin-bottom: 4rem;
+  }
+
+  .omelette-heading {
+    font-size: 3.8rem;
+    font-weight: 100;
+  }
+
+  .omelette-description {
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+
+  .omelette-img {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  /****************************/
+  /* PREPARATION SECTION */
+  /****************************/
+
+  .preparation-container {
+    padding: 1.8rem 1.5rem;
+    line-height: 3rem;
+
+    border-radius: 1.1rem;
+    margin: 0 2rem;
+  }
+
+  .preparation-time {
+    font-size: 2.4rem;
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .preparation-list {
+    font-size: 2rem;
+    padding-left: 3.5rem;
+
+    gap: 1rem;
+  }
+
+  /****************************/
+  /* INGREDIENT SECTION */
+  /****************************/
+
+  .ingredient-container {
+    /* padding: 5rem 2rem; */
+    line-height: 3rem;
+    margin: 0 2rem;
+  }
+
+  .ingredient {
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .ingredient-list {
+    font-size: 1.6rem;
+    padding-left: 2.5rem;
+  }
+
+  /****************************/
+  /* INSTRUCTION SECTION */
+  /****************************/
+
+  .instruction-container {
+    margin: 3.5rem 2rem;
+    line-height: 3rem;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .instruction {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .instruction-list-container {
+    gap: 1rem;
+
+    padding-left: 3rem;
+  }
+
+  .instruction-list-container li {
+    font-size: 1.8rem;
+    padding-left: 1rem;
+  }
+
+  .instruction-list-container li:last-child {
+    margin-bottom: 4rem;
+  }
+
+  .instruction-list-strong {
+    color: #302d2c;
+    font-size: 2rem;
+  }
+  .instruction-list-span {
+    color: #5f574e;
+    font-size: 1.7rem;
+  }
+
+  .nutrition-container {
+    padding: 1rem 0;
+    margin: 2rem 2rem;
+  }
+
+  /****************************/
+  /* NUTRITION SECTION */
+  /****************************/
+
+  .nutrition {
+    padding-bottom: 1rem 0;
+    font-size: 3rem;
+  }
+
+  .nutrition-description {
+    font-size: 1.7rem;
+    padding-bottom: 2rem;
+  }
+
+  .nutrition-data {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  .nutrition-table {
+    width: 30rem;
+    margin-left: 3rem;
+  }
+}
